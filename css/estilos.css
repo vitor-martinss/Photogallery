@@ -1,0 +1,460 @@
+.wrapper,
+.wrapper .menu,
+header,
+nav {
+    width: 100%;
+    float: left
+}
+
+.next,
+.prev {
+    border-radius: 3px 0 0 3px
+}
+
+body {
+    background: #000;
+    font-family: Montserrat-Regular, sans-serif
+}
+
+.wrapper {
+    margin: 0 auto
+}
+
+nav {
+    height: 80px
+}
+
+nav img {
+    float: left;
+    width: 80%;
+    margin: 15px
+}
+
+.main-menu .navbar li {
+    width: auto;
+    margin: 35px;
+    float: left;
+    text-align: right;
+    font-size: 1.3vw
+}
+
+.menu .image-logo {
+    float: left;
+    width: 25%
+}
+
+.menu .navbar {
+    float: left;
+    width: 75%
+}
+
+.navbar ul,
+.wrapper .slider {
+    width: 100%;
+    float: left
+}
+
+.content-about article a,
+nav a {
+    float: left;
+    text-decoration: none;
+    color: #fff
+}
+
+a:hover {
+    color: #A4A4A4
+}
+
+.main-menu-mobile {
+    display: none
+}
+
+.wrapper .slider {
+    position: relative
+}
+
+.next,
+.prev,
+.slider article {
+    position: absolute;
+    color: #fff;
+    top: 50%
+}
+
+.slider article {
+    width: 60%;
+    float: left;
+    left: 5%;
+    margin: 0 auto;
+    font-size: 2vw
+}
+
+.slider img {
+    width: 100%;
+    float: left
+}
+
+,
+.mySlides1,
+.mySlides2,
+.mySlides3 {
+    display: none
+}
+
+.next,
+.prev {
+    cursor: pointer;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    font-weight: 700;
+    font-size: 18px;
+    transition: .6s ease
+}
+
+.next {
+    right: 0
+}
+
+.prev {
+    left: 0
+}
+
+.next:hover,
+.prev:hover {
+    background-color: rgba(0, 0, 0, .8)
+}
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+.wrapper .sections {
+    position: relative;
+    float: left;
+    width: 100%;
+    margin: 100px 0
+}
+
+.wrapper .sections-galeries {
+    margin: 0
+}
+
+.wrapper .sections li {
+    width: 25%;
+    background: #00f;
+    float: left;
+    animation: fadeIn 1s
+}
+
+.people-section img .nature-section img .nightlife-section img .places-section img,
+.wrapper .sections img {
+    width: 100%;
+    float: left;
+    position: relative
+}
+
+.people-section {
+    position: relative
+}
+
+.sections li article {
+    position: absolute;
+    float: left;
+    font-size: 2vw;
+    color: #fff;
+    animation: fadeIn 1s;
+    margin-top: 30%;
+    margin-left: 8%
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0
+    }
+    to {
+        opacity: 1
+    }
+}
+
+.container-gallery li>a,
+.sections li>a,
+input[type=submit] {
+    display: block;
+    position: absolute;
+    padding: 16px;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    border: solid #fff;
+    margin-top: 35%;
+    margin-left: 9%;
+    font-size: 1.3vw;
+    -webkit-transition-duration: .3s;
+    transition-duration: .3s
+}
+
+.content-about h1,
+footer p {
+    padding: 20px;
+    text-align: center
+}
+
+.container-gallery li>a:hover,
+.sections li>a:hover,
+input[type=submit]:hover {
+    background-color: #fff;
+    color: #000
+}
+
+input[type=submit] {
+    display: block;
+    margin-left: 0;
+    margin-top: 0;
+    background: 0 0;
+    font-family: Montserrat
+}
+
+.banner {
+    position: relative;
+    float: left
+}
+
+.banner li img {
+    width: 100%
+}
+
+.container-gallery .banner li {
+    width: 100%;
+    float: left
+}
+
+.wrapper .galeries-page .banner img {
+    width: 100%
+}
+
+.wrapper .photos-gallery {
+    float: left
+}
+
+.wrapper .photos-gallery img {
+    width: 100%;
+    -webkit-filter: blur(2px)
+}
+
+.wrapper .photos-gallery img:hover {
+    cursor: pointer;
+    -webkit-filter: blur(0)
+}
+
+.container-gallery .banner li article {
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    color: #fff;
+    font-size: 2vw
+}
+
+.galeries-page .banner li article {
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    color: #fff
+}
+
+.container-gallery li>a {
+    width: 3%;
+    margin-left: 47%
+}
+
+.container-gallery {
+    float: left
+}
+
+.photos-gallery ul li {
+    width: 25%;
+    float: left
+}
+
+.photos-gallery ul li:hover {
+    cursor: pointer;
+    z-index: 1
+}
+
+footer {
+    float: left;
+    width: 100%
+}
+
+footer p {
+    width: calc(100% - 40px);
+    font-size: 1vw;
+    float: left;
+    color: #fff
+}
+
+.about-page,
+.about-page img {
+    position: relative;
+    width: 100%;
+    float: left
+}
+
+.content-footer-mobile {
+    display: none
+}
+
+.content-about {
+    width: 25%;
+    float: left;
+    background: #000;
+    margin-left: 25%;
+    margin-top: 5%;
+    position: absolute
+}
+
+.content-about h1 {
+    color: #fff;
+    font-size: 2vw
+}
+
+.content-about article {
+    float: left;
+    color: #fff;
+    padding: 15px;
+    text-align: left;
+    font-size: 1.5vw;
+    margin-bottom: 20px;
+    line-height: 150%;
+    font-weight: lighter
+}
+
+.contact-page {
+    width: 100%;
+    float: left
+}
+
+.contact-page .transbox {
+    float: left;
+    width: auto;
+    position: relative;
+    opacity: .7;
+    filter: alpha(opacity=70)
+}
+
+.contact-page img {
+    width: 100%;
+    float: left;
+    position: relative
+}
+
+.content-contact {
+    width: 100%;
+    position: absolute;
+    margin-top: 5%;
+    float: left
+}
+
+.content-contact h1 {
+    color: #fff;
+    text-align: left;
+    font-size: 2vw;
+    margin-left: 10%
+}
+
+.content-contact article {
+    float: left;
+    color: #fff;
+    text-align: left;
+    font-size: 1.5vw;
+    margin-top: 3%;
+    margin-left: 10%;
+    width: 30%;
+    line-height: 2.5
+}
+
+.contact-page .layout-centro {
+    position: absolute;
+    float: left;
+    width: 100%;
+    margin-top: 25%
+}
+
+.layout-centro .formulario {
+    width: 60%;
+    float: left;
+    position: absolute
+}
+
+.layout-centro .extra-info {
+    width: 40%;
+    float: right
+}
+
+.layout-centro .extra-info li {
+    font-size: 1.3vw;
+    color: #fff
+}
+
+.layout-centro .extra-info a {
+    color: #fff;
+    text-decoration: none;
+    padding: 40px
+}
+
+.formulario .grupo-entrada {
+    margin-left: 16%;
+    font-size: 1.3vw;
+    float: left;
+    width: 80%
+}
+
+.form-group li,
+.grupo-entrada .form-group {
+    float: left;
+    width: 100%
+}
+
+.formulario .grupo-entrada label {
+    display: block;
+    color: #fff;
+    margin-bottom: 2%;
+    width: 100%
+}
+
+.grupo-entrada input,
+.grupo-entrada textarea {
+    float: left;
+    width: 70%;
+    margin-bottom: 10%
+}
+
+input[type=submit] {
+    width: 15%;
+    margin-bottom: auto
+}
+
+.grupo-entrada textarea {
+    height: 100px
+}
